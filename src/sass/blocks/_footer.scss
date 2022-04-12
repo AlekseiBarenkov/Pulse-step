@@ -42,7 +42,17 @@
 		justify-content: center;
 		align-items: center;
 		text-decoration: none;
+		border-radius: 100%;
 		margin: 0 15px;
+		transition: .3s all;
+
+		&:hover {
+			transform: translateY(-2px);
+		}
+
+		&:active {
+			transform: translateY(0px);
+		}
 	}
 
 	&__social {
